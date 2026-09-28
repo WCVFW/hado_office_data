@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #5278F6;
+  --color-primary-hover: #16a34a;
+  --color-background: #020617;
+  --font-sans: 'DM Sans', sans-serif;
+  
+  --animate-fade-in-up: fade-in-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-wave-flow: wave-flow 15s linear infinite;
+  --animate-wave-flow-reverse: wave-flow-reverse 15s linear infinite;
+  --animate-wave-breathe: wave-breathe 8s ease-in-out infinite alternate;
+  --animate-float: float 10s ease-in-out infinite;
+  --animate-float-reverse: float-reverse 12s ease-in-out infinite;
+  --animate-float-slow: float 15s ease-in-out infinite;
+  
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes wave-flow {
+    0% { background-position: 0 0; }
+    100% { background-position: 48px 48px; }
+  }
+
+  @keyframes wave-flow-reverse {
+    0% { background-position: 0 0; }
+    100% { background-position: -48px -48px; }
+  }
+
+  @keyframes wave-breathe {
+    0% { transform: scale(1) translateY(0px) rotate(0deg); }
+    50% { transform: scale(1.05) translateY(-15px) rotate(1deg); }
+    100% { transform: scale(1) translateY(0px) rotate(0deg); }
+  }
+
+  @keyframes wave-scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-20px) rotate(2deg); }
+  }
+
+  @keyframes float-reverse {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(20px) rotate(-2deg); }
+  }
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: #F8FAFC; /* Slate 50 */
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer utilities {
+  .animate-delay-100 { animation-delay: 100ms; }
+  .animate-delay-200 { animation-delay: 200ms; }
+  .animate-delay-300 { animation-delay: 300ms; }
+  .animate-delay-400 { animation-delay: 400ms; }
+
+  /* ULTRA UI/UX GOD MODE Utilities */
+  .glass {
+    @apply bg-[#0F172A]/50 backdrop-blur-md border border-[#1E293B]/50;
+  }
+  .glass-card {
+    @apply bg-[#0F172A]/30 backdrop-blur-sm border border-[#1E293B] hover:border-[#5278F6]/50 transition-all duration-300;
+  }
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400;
+  }
+}

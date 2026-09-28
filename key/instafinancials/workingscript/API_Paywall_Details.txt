@@ -1,0 +1,164 @@
+=============================================================
+INSTAFINANCIALS - PAYWALL / ORDERING API REQUEST URLs
+=============================================================
+
+Indha APIs thaan InstaFinancials-la premium reports (InstaSummary, Contact Details) purchase panna and access panna use aagudhu:
+
+API Endpoint : /director/director-profile.aspx/PopulateReportsData
+HTTP Method  : POST
+Payload Data : JSON.stringify({
+
+            directorId: directorId
+------------------------------------------------------------
+API Endpoint : /company/company-bookmarks.aspx/PopulateBookmarksData
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CID) + "
+------------------------------------------------------------
+API Endpoint : /company/company-bookmarks.aspx/PopulateBookmarksData
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CID) + "
+------------------------------------------------------------
+API Endpoint : /company/company-about-us.aspx/PopulateAboutUsData
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CID) + "
+------------------------------------------------------------
+API Endpoint : /company/company-about-us.aspx/ClaimCompany
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CID) + "}"
+------------------------------------------------------------
+API Endpoint : /company/company-about-us.aspx/VerifyMobileNo
+HTTP Method  : POST
+Payload Data : "{MobileNo:" + JSON.stringify(MobileNo) + "
+------------------------------------------------------------
+API Endpoint : /company/company-about-us.aspx/GetVerificationOTP
+HTTP Method  : POST
+Payload Data : "{MobileNo:" + JSON.stringify(MobileNo) + "}"
+------------------------------------------------------------
+API Endpoint : /company/company-about-us.aspx/VerifyOTP
+HTTP Method  : POST
+Payload Data : "{InstaOTP:" + JSON.stringify(InstaOTP) + "}"
+------------------------------------------------------------
+API Endpoint : /company/company-about-us.aspx/UpdateCompanyAboutUs
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CID) + "
+------------------------------------------------------------
+API Endpoint : /company/company-about-us.aspx/InsertUpdateAboutUs
+HTTP Method  : POST
+Payload Data : "{ObjectAboutUs:" + JSON.stringify(objAboutUs) + "}"
+------------------------------------------------------------
+API Endpoint : /company/company-reviews.aspx/PopulateReviewData
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CID) + "
+------------------------------------------------------------
+API Endpoint : /company/company-reviews.aspx/ReviewCompany
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CID) + "
+------------------------------------------------------------
+API Endpoint : /company/company-reviews.aspx/InsertUpdateCustomerRating
+HTTP Method  : POST
+Payload Data : "{CustomerRating:" + JSON.stringify(CustRatings) + "}"
+------------------------------------------------------------
+API Endpoint : /company/company-reviews.aspx/InsertUpdateSupplierRating
+HTTP Method  : POST
+Payload Data : "{SupplierRating:" + JSON.stringify(SupplierRatings) + "}"
+------------------------------------------------------------
+API Endpoint : /company/company-reviews.aspx/InsertUpdateEmployeeRating
+HTTP Method  : POST
+Payload Data : "{EmployeeRating:" + JSON.stringify(EmployeeRatings) + "}"
+------------------------------------------------------------
+API Endpoint : /company/company-reviews.aspx/ShowAllReviews
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CID) + "
+------------------------------------------------------------
+API Endpoint : /company/company-notes.aspx/PopulateMyNotes
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CID) + "
+------------------------------------------------------------
+API Endpoint : /company/company-notes.aspx/InsertUpdateMyNotes
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CID) + "
+------------------------------------------------------------
+API Endpoint : /director/director-master.aspx/clearSessionInstaReporttype
+HTTP Method  : POST
+Payload Data : "{}"
+------------------------------------------------------------
+API Endpoint : /company/company-master.aspx/UpdateCompany
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CID) + "}"
+------------------------------------------------------------
+API Endpoint : /director/director-master.aspx/UpdateDirectors
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CID) + "}"
+------------------------------------------------------------
+API Endpoint : /charges/charges-master.aspx/UpdateCharges
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CID) + "}"
+------------------------------------------------------------
+API Endpoint : /company/company-reports.aspx/PopulateProductData
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CID) + "
+------------------------------------------------------------
+API Endpoint : /company/company-reports.aspx/PopulateProductData
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CID) + "
+------------------------------------------------------------
+API Endpoint : /company/company-reports.aspx/SetReportData
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CompanyID) + "
+------------------------------------------------------------
+API Endpoint : /company/company-reports.aspx/IsAllDocsAllowed
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CID) + "
+------------------------------------------------------------
+API Endpoint : /company/company-bookmarks.aspx/InsertUpdate_UserBookMark
+HTTP Method  : POST
+Payload Data : "{bookmarkData:" + JSON.stringify(CompanyBookmark) + "}"
+------------------------------------------------------------
+API Endpoint : /company/company.aspx/checkIfCompanyProductOrdered
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CompanyID) + "
+------------------------------------------------------------
+API Endpoint : /company/company.aspx/SaveInstaCartProducts
+HTTP Method  : POST
+Payload Data : "{ReportInstaUserID:" + JSON.stringify(UserID) + "
+------------------------------------------------------------
+API Endpoint : /company/company.aspx/PopulateReportsData
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CID) + "
+------------------------------------------------------------
+API Endpoint : /company/company.aspx/checkIfCompanyProductOrdered
+HTTP Method  : POST
+Payload Data : "{CompanyID:" + JSON.stringify(CompanyID) + "
+------------------------------------------------------------
+API Endpoint : /company/company-timeline.aspx/CreateCompanyChangedTimeline
+HTTP Method  : POST
+Payload Data : { CompanyID: CompanyID }
+------------------------------------------------------------
+API Endpoint : /company/company-master.aspx/GetStatus
+HTTP Method  : POST
+Payload Data : None
+------------------------------------------------------------
+API Endpoint : company-master.aspx/CheckRetailMCALogin
+HTTP Method  : POST
+Payload Data : JSON.stringify({ request: request })
+------------------------------------------------------------
+API Endpoint : company-master.aspx/InitiateRetailMCALoginUsingStoredCredentials
+HTTP Method  : POST
+Payload Data : JSON.stringify({ request: request })
+------------------------------------------------------------
+API Endpoint : company-master.aspx/InitiateRetailMCALogin
+HTTP Method  : POST
+Payload Data : JSON.stringify({ request: request })
+------------------------------------------------------------
+API Endpoint : company-master.aspx/VerifyRetailMCAOTP
+HTTP Method  : POST
+Payload Data : JSON.stringify({ request: request })
+------------------------------------------------------------
+API Endpoint : company-master.aspx/UpdateCompanyInformation
+HTTP Method  : POST
+Payload Data : JSON.stringify({ request: request })
+------------------------------------------------------------
+API Endpoint : /director/director-master.aspx/SaveInstaCart_DirectorLegalReport
+HTTP Method  : POST
+Payload Data : "{InstaUserID:" + JSON.stringify(UID) + "
+------------------------------------------------------------

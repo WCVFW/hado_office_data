@@ -1,0 +1,126 @@
+[
+    {
+        "url": "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap",
+        "method": "GET",
+        "headers": {
+            "Referer": "https://www.tofler.in/",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+        }
+    },
+    {
+        "url": "https://d1mgel6vch4ba4.cloudfront.net/images/svg/search-normal",
+        "method": "GET",
+        "headers": {
+            "Referer": "https://www.tofler.in/",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+        }
+    },
+    {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-D30V7BL6HX&gtm=45je6711v9105500003za200zd9105500003&_p=1783415426827&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAAC&are=1&cid=1890724745.1783415427&frm=0&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.47%7CGoogle%2520Chrome%3B150.0.7871.47&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=1&tag_exp=115938465~115938468~118395335~119027224~119576881~119576885~119576891~119576895&sid=1783415427&sct=1&seg=0&dl=https%3A%2F%2Fwww.tofler.in%2F&dt=Tofler%20%7C%20Company%20Information%20Website&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1346",
+        "method": "POST",
+        "headers": {
+            "Referer": "https://www.tofler.in/",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+        }
+    },
+    {
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/961203461/?random=1783415427665&cv=11&fst=1783415427665&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6711v9220373148z8838473232za20gzb838473232zd838473232xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118395333~118826210~119027224~119576881~119576885~119576891~119576895&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tofler.in%2F&rcb=8&frm=0&tiba=Tofler%20%7C%20Company%20Information%20Website&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1285699459.1783415427&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.47%7CGoogle%2520Chrome%3B150.0.7871.47&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+        "method": "GET",
+        "headers": {
+            "Referer": "https://www.tofler.in/",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+        }
+    },
+    {
+        "url": "https://www.google.com/rmkt/collect/961203461/?random=1783415427665&cv=11&fst=1783415427665&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6711v9220373148z8838473232za20gzb838473232zd838473232xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118395333~118826210~119027224~119576881~119576885~119576891~119576895&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tofler.in%2F&rcb=8&frm=0&tiba=Tofler%20%7C%20Company%20Information%20Website&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1285699459.1783415427&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.47%7CGoogle%2520Chrome%3B150.0.7871.47&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "method": "POST",
+        "headers": {
+            "Referer": "https://www.tofler.in/",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+        }
+    },
+    {
+        "url": "https://www.facebook.com/tr/?id=688270460375006&ev=ViewContent&dl=https%3A%2F%2Fwww.tofler.in%2F&rl=&if=false&ts=1783415427771&iw=false&cd[currency]=INR&cd[cs_est]=true&sw=1280&sh=720&v=2.9.349&r=stable&a=tmSimo-GTM-WebTemplate&ec=1&o=4126&aems=0%3B0&fbp=fb.1.1783415427748.274206380537378384&ler=empty&cdl=API_unavailable&pmd[locale]=en_US&plt=1168.0999999940395&iss=1&imft=1&tz=330&it=1783415427567&coo=false&es=automatic&cs_est=true&est_source=1077055827639024&tm=3&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im0&expv2[6]=hf1&rqm=GET",
+        "method": "GET",
+        "headers": {
+            "Referer": "https://www.tofler.in/",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+        }
+    },
+    {
+        "url": "https://www.facebook.com/tr/?id=688270460375006&ev=PageView&dl=https%3A%2F%2Fwww.tofler.in%2F&rl=&if=false&ts=1783415427779&iw=false&sw=1280&sh=720&v=2.9.349&r=stable&a=tmSimo-GTM-WebTemplate&ec=0&o=4126&aems=0%3B0&fbp=fb.1.1783415427748.274206380537378384&cs_est=true&ler=empty&cdl=API_unavailable&pmd[title]=Tofler%20%7C%20Company%20Information%20Website&pmd[locale]=en_US&plt=1168.0999999940395&iss=1&imft=1&tz=330&it=1783415427567&coo=false&tm=1&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im0&expv2[6]=hf1&expv2[7]=ai1&rqm=GET",
+        "method": "GET",
+        "headers": {
+            "Referer": "https://www.tofler.in/",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+        }
+    },
+    {
+        "url": "https://www.google.com/pagead/1p-user-list/961203461/?random=1783415427665&cv=11&fst=1783414800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6711v9220373148z8838473232za20gzb838473232zd838473232xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118395333~118826210~119027224~119576881~119576885~119576891~119576895&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tofler.in%2F&rcb=8&frm=0&tiba=Tofler%20%7C%20Company%20Information%20Website&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1285699459.1783415427&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.47%7CGoogle%2520Chrome%3B150.0.7871.47&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQSsAEAEQoqgWux7eyaWhaQ9PlyCl-cIaN8r7GSm_uRolEnBNYroe1YMF7thdqpi0wq7GUhrpfiNb1gAOvo6CN3VVdiqsx3zpZqKQKmHYoCzx0IA_e0SeRifdH006MnTeAIkMFOXTBhR9jznCSwWeYrJhOzQwSKaZKJ0pywyP-KbLqb-57vYCfnhm-6n1Nqh_0_SLiNTe7MNvezHYpPkpVLVFUemWd-6ehm8MM-3gtL-SiOYA&random=3094067657&rmt_tld=0&ipr=y",
+        "method": "GET",
+        "headers": {
+            "Referer": "https://www.tofler.in/",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+        }
+    },
+    {
+        "url": "https://www.google.co.in/pagead/1p-user-list/961203461/?random=1783415427665&cv=11&fst=1783414800000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6711v9220373148z8838473232za20gzb838473232zd838473232xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118395333~118826210~119027224~119576881~119576885~119576891~119576895&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.tofler.in%2F&rcb=8&frm=0&tiba=Tofler%20%7C%20Company%20Information%20Website&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1285699459.1783415427&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.47%7CGoogle%2520Chrome%3B150.0.7871.47&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQSsAEAEQoqgWux7eyaWhaQ9PlyCl-cIaN8r7GSm_uRolEnBNYroe1YMF7thdqpi0wq7GUhrpfiNb1gAOvo6CN3VVdiqsx3zpZqKQKmHYoCzx0IA_e0SeRifdH006MnTeAIkMFOXTBhR9jznCSwWeYrJhOzQwSKaZKJ0pywyP-KbLqb-57vYCfnhm-6n1Nqh_0_SLiNTe7MNvezHYpPkpVLVFUemWd-6ehm8MM-3gtL-SiOYA&random=3094067657&rmt_tld=1&ipr=y",
+        "method": "GET",
+        "headers": {
+            "Referer": "https://www.tofler.in/",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+        }
+    },
+    {
+        "url": "https://www.tofler.in/cnamesearch",
+        "method": "POST",
+        "headers": {
+            "Accept": "application/json, text/javascript, */*; q=0.01",
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+            "Referer": "https://www.tofler.in/",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "X-Requested-With": "XMLHttpRequest",
+            "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+        }
+    },
+    {
+        "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-D30V7BL6HX&gtm=45je6711v9105500003z8838473232za200zd9105500003&_p=1783415426827&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQC&are=1&cid=1890724745.1783415427&frm=0&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=Not%253BA%253DBrand%3B8.0.0.0%7CChromium%3B150.0.7871.47%7CGoogle%2520Chrome%3B150.0.7871.47&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=en-us&_s=2&tag_exp=115938465~115938468~118395335~119027224~119576881~119576885~119576891~119576895&sid=1783415427&sct=1&seg=0&dl=https%3A%2F%2Fwww.tofler.in%2F&dt=Tofler%20%7C%20Company%20Information%20Website&en=Page%20Opened&_et=165&tfd=6522",
+        "method": "POST",
+        "headers": {
+            "Referer": "https://www.tofler.in/",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+            "sec-ch-ua": "\"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"150\", \"Google Chrome\";v=\"150\"",
+            "sec-ch-ua-mobile": "?0",
+            "sec-ch-ua-platform": "\"Windows\""
+        }
+    }
+]
