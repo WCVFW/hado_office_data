@@ -1,0 +1,42 @@
+/* Watchlist.css */
+.watchlist-container {
+  height: 700px;
+  overflow-y: auto;
+}
+
+.watchlist-table {
+  width: 100%;
+}
+
+.watchlist-row {
+  cursor: pointer;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.1);
+}
+
+.watchlist-row.selected {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+.ticker-name {
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+}
+
+.nse-badge {
+  font-size: 0.5rem;
+  margin-left: 4px;
+}
+
+.price-text {
+  font-size: 0.75rem;
+}
+
+.price-icon {
+  font-size: 0.8rem;
+}
+
+.change-text {
+  font-size: 0.6rem;
+  line-height: 1.4;
+}

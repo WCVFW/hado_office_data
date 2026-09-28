@@ -1,0 +1,48 @@
+# IDE folders
+.idea/
+.vscode/
+*.iml
+*.swp
+*.DS_Store
+
+# Android
+.gradle/
+Captures/
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+local.properties
+proguard-project.txt
+project.properties
+
+# Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/App.framework
+ios/Flutter/App.podspec
+ios/Flutter/App.framework.zip
+ios/.Generated.xcconfig
+
+# Maven (Backend)
+target/
+*.log
+catboot.log
+active.log
+
+# Frontend/Node (Client)
+node_modules/
+dist/
+release/
+package-lock.json
+
+# System specific
+Thumbs.db
+desktop.ini

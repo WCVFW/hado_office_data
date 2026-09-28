@@ -1,0 +1,54 @@
+name: Deploy React App to EC2 (Apache2 + SSL Renewal)
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. Upload dist folder to EC2
+      - name: Upload build files
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USER }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          source: "dist/**"
+          target: "/tmp/deploy-dist"
+
+      # 3. SSH into EC2 and deploy
+      - name: Deploy to Apache & Renew SSL
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USER }}
+          key: ${{ secrets.EC2_SSH_KEY }}
+          script: |
+            echo "🔄 Clearing old files..."
+            sudo rm -rf /var/www/html/*
+
+            echo "📂 Copying new dist files..."
+            sudo cp -r /tmp/deploy-dist/dist/* /var/www/html/
+
+            echo "🔑 Fixing permissions..."
+            sudo chown -R www-data:www-data /var/www/html
+            sudo chmod -R 755 /var/www/html
+
+            echo "🚀 Restarting Apache..."
+            sudo systemctl restart apache2
+
+            echo "🔐 Renewing SSL with certbot..."
+            sudo certbot renew --apache --quiet || true
+
+            echo "🔁 Reloading Apache..."
+            sudo systemctl reload apache2
+
+            echo "✅ Deployment finished!"
